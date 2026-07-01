@@ -5,11 +5,11 @@ describe("permutations", () => {
     expect(permutations([])).toEqual([[]]);
   });
 
-  test.skip("1 possible permutation for a set containing 1 number", () => {
+  test("1 possible permutation for a set containing 1 number", () => {
     expect(permutations([1])).toEqual([[1]]);
   });
 
-  test.skip("2 possible permutations for a set containing 2 numbers", () => {
+  test("2 possible permutations for a set containing 2 numbers", () => {
     expect(permutations([1, 2]).sort()).toEqual(
       [
         [1, 2],
@@ -18,7 +18,7 @@ describe("permutations", () => {
     );
   });
 
-  test.skip("6 possible permutations for a set containing 3 numbers", () => {
+  test("6 possible permutations for a set containing 3 numbers", () => {
     expect(permutations([1, 2, 3]).sort()).toEqual(
       [
         [1, 2, 3],
@@ -31,7 +31,7 @@ describe("permutations", () => {
     );
   });
 
-  test.skip("24 possible permutations for a set containing 4 numbers", () => {
+  test("24 possible permutations for a set containing 4 numbers", () => {
     expect(permutations([1, 2, 3, 4]).sort()).toEqual(
       [
         [1, 2, 3, 4],
